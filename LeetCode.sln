@@ -8,6 +8,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A8D1CBA7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode.Solutions.Tests", "tests\LeetCode.Solutions.Tests\LeetCode.Solutions.Tests.csproj", "{34AB24EC-BB94-4472-83E1-32065A414717}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode.Helpers", "src\LeetCode.Helpers\LeetCode.Helpers.csproj", "{98D24504-FB9D-4BE2-869B-9A1C9F47E54F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,9 +24,14 @@ Global
 		{34AB24EC-BB94-4472-83E1-32065A414717}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34AB24EC-BB94-4472-83E1-32065A414717}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34AB24EC-BB94-4472-83E1-32065A414717}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98D24504-FB9D-4BE2-869B-9A1C9F47E54F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98D24504-FB9D-4BE2-869B-9A1C9F47E54F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98D24504-FB9D-4BE2-869B-9A1C9F47E54F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98D24504-FB9D-4BE2-869B-9A1C9F47E54F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BBE64A46-EFE4-4024-96D8-8C8B5EF13EA9} = {0CA4D775-598C-409F-8DE0-0D62C01DEE3E}
 		{34AB24EC-BB94-4472-83E1-32065A414717} = {A8D1CBA7-21D0-4730-AA89-7FB03D53A985}
+		{98D24504-FB9D-4BE2-869B-9A1C9F47E54F} = {0CA4D775-598C-409F-8DE0-0D62C01DEE3E}
 	EndGlobalSection
 EndGlobal
