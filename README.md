@@ -1,2 +1,2 @@
-# LeetCode
-My Solutions to LeetCode problems
+# LeetCode C#
+My C# solutions to LeetCode problems
