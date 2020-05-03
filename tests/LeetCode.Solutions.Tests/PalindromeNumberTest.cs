@@ -15,7 +15,9 @@ namespace LeetCode.Solutions.Tests
 			new TestCaseData(-1, false)
 				.SetName("One-digit negative number"),
 			new TestCaseData(11, true)
-				.SetName("Two-digit palindrome number"),
+				.SetName("Positive two-digit palindrome number"),
+			new TestCaseData(-11, false)
+				.SetName("Negative two-digit palindrome number"),
 			new TestCaseData(121, true)
 				.SetName("Short palindrome number with odd number of digits"),
 			new TestCaseData(123454321, true)
@@ -28,9 +30,9 @@ namespace LeetCode.Solutions.Tests
 				.SetName("Positive number with unique digits"),
 			new TestCaseData(-123, false)
 				.SetName("Negative number with unique digits"),
-			new TestCaseData(120, false)
+			new TestCaseData(10, false)
 				.SetName("Number is multiple of ten"),
-			new TestCaseData(-120, false)
+			new TestCaseData(-10, false)
 				.SetName("Negative number is a multiple of ten"),
 			new TestCaseData(int.MinValue, false)
 				.SetName("Int32 min value"),
