@@ -15,7 +15,7 @@ namespace LeetCode.Solutions.Tests
 					new LinkedList(new[] {0}).First, 
 					new LinkedList(new[] {0}).First,
 					new LinkedList(new[] {0}).First)
-				.SetDescription("Zero numbers"),
+				.SetName("Zero numbers"),
 			new TestCaseData(
 					new LinkedList(new[] {2, 4, 3}).First, 
 					new LinkedList(new[] {5, 6, 4}).First,

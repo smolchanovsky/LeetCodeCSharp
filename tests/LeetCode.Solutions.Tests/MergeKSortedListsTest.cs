@@ -15,14 +15,14 @@ namespace LeetCode.Solutions.Tests
 			new TestCaseData(
 					Array.Empty<ListNode>(),
 					null)
-				.SetDescription("Empty list"),
+				.SetName("Empty list"),
 			new TestCaseData(
 					new[]
 					{
 						new LinkedList(new[] {1, 2, 3}).First
 					},
 					new LinkedList(new[] {1, 2, 3}).First)
-				.SetDescription("Single list"),
+				.SetName("Single list"),
 			new TestCaseData(
 					new[]
 					{
@@ -31,7 +31,7 @@ namespace LeetCode.Solutions.Tests
 						new LinkedList(new[] {0}).First
 					},
 					new LinkedList(new[] {0, 0, 0}).First)
-				.SetDescription("Single values"),
+				.SetName("Single values"),
 			new TestCaseData(
 					new[]
 					{

@@ -15,7 +15,7 @@ namespace LeetCode.Solutions.Tests
 					new LinkedList(new[] {0}).First, 
 					new LinkedList(new[] {0}).First,
 					new LinkedList(new[] {0, 0}).First)
-				.SetDescription("Single values"),
+				.SetName("Single values"),
 			new TestCaseData(
 					new LinkedList(new[] {2, 3, 4}).First, 
 					new LinkedList(new[] {4, 5, 6}).First,
