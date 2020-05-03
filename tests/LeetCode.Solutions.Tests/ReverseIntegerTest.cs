@@ -38,7 +38,7 @@ namespace LeetCode.Solutions.Tests
 		}
 
 		[TestCaseSource(nameof(testCases))]
-		public void Approach1_Get(int number, int expectedResult)
+		public void Approach1_Reverse(int number, int expectedResult)
 		{
 			var actualResult = approach1.Reverse(number);
 			
