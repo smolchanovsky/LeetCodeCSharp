@@ -43,18 +43,18 @@ namespace LeetCode.Solutions.Tests
 				.SetName("Many carry (right number is longer)"),
 		};
 
-		private IAddTwoNumbers addTwoNumbersApproach1;
+		private IAddTwoNumbers approach1;
 		
 		[OneTimeSetUp]
 		public void OneTimeSetUp()
 		{
-			addTwoNumbersApproach1 = new AddTwoNumbersApproach1();
+			approach1 = new AddTwoNumbersApproach1();
 		}
 
 		[TestCaseSource(nameof(testCases))]
 		public void Approach1_Add(ListNode left, ListNode right, ListNode expectedResult)
 		{
-			var actualResult = addTwoNumbersApproach1.Add(left, right);
+			var actualResult = approach1.Add(left, right);
 
 			actualResult.Should().BeEquivalentTo(expectedResult);
 		}

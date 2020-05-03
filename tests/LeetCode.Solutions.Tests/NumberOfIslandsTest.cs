@@ -32,18 +32,18 @@ namespace LeetCode.Solutions.Tests
 				.SetName("Three island grid")
 		};
 
-		private INumberOfIslands numberOfIslandsApproach1;
+		private INumberOfIslands approach1;
 		
 		[OneTimeSetUp]
 		public void OneTimeSetUp()
 		{
-			numberOfIslandsApproach1 = new NumberOfIslandsApproach1();
+			approach1 = new NumberOfIslandsApproach1();
 		}
 
 		[TestCaseSource(nameof(testCases))]
 		public void Approach1_Get(char[][] grid, int expectedResult)
 		{
-			var actualResult = numberOfIslandsApproach1.Get(grid);
+			var actualResult = approach1.Get(grid);
 
 			actualResult.Should().Be(expectedResult);
 		}
