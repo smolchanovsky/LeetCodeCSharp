@@ -1,7 +1,8 @@
 ﻿namespace LeetCode.Solutions.PalindromeNumber
 {
 	/// <summary>
-	/// 
+	/// Time Complexity: O(log(x)). There are roughly log10(x) digits in x.
+	/// Space Complexity: O(1).
 	/// </summary>
 	public class PalindromeNumberApproach1 : IPalindromeNumber
 	{
