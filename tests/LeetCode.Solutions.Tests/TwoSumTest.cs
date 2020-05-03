@@ -25,18 +25,18 @@ namespace LeetCode.Solutions.Tests
 				.SetName("Array with negative items")
 		};
 		
-		private ITwoSum twoSumApproach1;
+		private ITwoSum approach1;
 
 		[OneTimeSetUp]
 		public void OneTimeSetup()
 		{
-			twoSumApproach1 = new TwoSumApproach1();
+			approach1 = new TwoSumApproach1();
 		}
 
 		[TestCaseSource(nameof(testCases))]
 		public void Approach1_Get(int[] nums, int target, int[] expectedResult)
 		{
-			var actualResult = twoSumApproach1.Get(nums, target);
+			var actualResult = approach1.Get(nums, target);
 			
 			actualResult.Should().BeEquivalentTo(expectedResult);
 		}

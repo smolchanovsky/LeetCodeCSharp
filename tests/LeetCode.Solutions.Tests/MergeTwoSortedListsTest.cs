@@ -38,18 +38,18 @@ namespace LeetCode.Solutions.Tests
 				.SetName("List items do not repeat"),
 		};
 		
-		private IMergeTwoSortedLists mergeTwoSortedListsApproach1;
+		private IMergeTwoSortedLists approach1;
 
 		[OneTimeSetUp]
 		public void OneTimeSetup()
 		{
-			mergeTwoSortedListsApproach1 = new MergeTwoSortedListsApproach1();
+			approach1 = new MergeTwoSortedListsApproach1();
 		}
 
 		[TestCaseSource(nameof(testCases))]
 		public void Approach1_Merge(ListNode first, ListNode second, ListNode expectedResult)
 		{
-			var actualResult = mergeTwoSortedListsApproach1.Merge(first, second);
+			var actualResult = approach1.Merge(first, second);
 			
 			actualResult.Should().BeEquivalentTo(expectedResult);
 		}

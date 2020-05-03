@@ -89,18 +89,18 @@ namespace LeetCode.Solutions.Tests
 				.SetName("Lists items do not repeat"),
 		};
 		
-		private IMergeKSortedLists mergeKSortedListsApproach1;
+		private IMergeKSortedLists approach1;
 
 		[OneTimeSetUp]
 		public void OneTimeSetup()
 		{
-			mergeKSortedListsApproach1 = new MergeKSortedListsApproach1();
+			approach1 = new MergeKSortedListsApproach1();
 		}
 
 		[TestCaseSource(nameof(testCases))]
 		public void Approach1_Merge(ListNode[] lists, ListNode expectedResult)
 		{
-			var actualResult = mergeKSortedListsApproach1.Merge(lists);
+			var actualResult = approach1.Merge(lists);
 			
 			actualResult.Should().BeEquivalentTo(expectedResult);
 		}
