@@ -8,6 +8,22 @@ namespace LeetCode.Solutions.Tests
 	[TestFixture]
 	public class NumberOfIslandsTest
 	{
+		private static char[][] ZeroIslandGrid => new[]
+		{
+			new [] {'0', '0', '0', '0'},
+			new [] {'0', '0', '0', '0'},
+			new [] {'0', '0', '0', '0'},
+			new [] {'0', '0', '0', '0'}
+		};
+		
+		private static char[][] IslandOnWholeGrid => new[]
+		{
+			new [] {'1', '1', '1', '1'},
+			new [] {'1', '1', '1', '1'},
+			new [] {'1', '1', '1', '1'},
+			new [] {'1', '1', '1', '1'},
+		};
+		
 		private static char[][] OneIslandGrid => new[]
 		{
 			new [] {'1', '1', '1', '1', '0'},
@@ -26,6 +42,10 @@ namespace LeetCode.Solutions.Tests
 		
 		private static IEnumerable testCases = new[]
 		{
+			new TestCaseData(ZeroIslandGrid, 0)
+				.SetName("Zero island grid"),
+			new TestCaseData(IslandOnWholeGrid, 1)
+				.SetName("Island on whole grid"),
 			new TestCaseData(OneIslandGrid, 1)
 				.SetName("One island grid"),
 			new TestCaseData(ThreeIslandGrid, 3)
