@@ -2,6 +2,10 @@
 
 namespace LeetCode.Solutions.LongestSubstringWithoutRepeatingCharacters
 {
+	/// <summary>
+	/// Time complexity: O(n).
+	/// Space complexity: O(min(m, n)) where N is the size of the string and M is the size of the charset/alphabet.
+	/// </summary>
 	public class LongestSubstringWithoutRepeatingCharactersApproach1 : ILongestSubstringWithoutRepeatingCharacters
 	{
 		public int GetLength(string str)
