@@ -7,7 +7,16 @@
 	{
 		public bool IsPalindrome(int number)
 		{
-			throw new System.NotImplementedException();
+			var left = 0;
+			var right = number;
+
+			while (left < right)
+			{
+				left = left * 10 + right % 10;
+				right /= 10;
+			}
+
+			return left == right || left / 10 == right;
 		}
 	}
 }
