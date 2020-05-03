@@ -18,7 +18,7 @@ namespace LeetCode.Solutions.Tests
 				.SetName("Two-digit palindrome number"),
 			new TestCaseData(121, true)
 				.SetName("Short palindrome number with odd number of digits"),
-			new TestCaseData(12345154321, true)
+			new TestCaseData(123454321, true)
 				.SetName("Long palindrome number with odd number of digits"),
 			new TestCaseData(1221, true)
 				.SetName("Short palindrome number with even number of digits"),
