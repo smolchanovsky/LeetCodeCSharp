@@ -8,6 +8,9 @@
 	{
 		public bool IsPalindrome(int number)
 		{
+			if(number < 0 || (number != 0 && number % 10 == 0))
+				return false;
+			
 			var left = 0;
 			var right = number;
 
