@@ -10,13 +10,13 @@ namespace LeetCode.Solutions.Tests
 	{
 		private static IEnumerable testCases = new[]
 		{
-			new TestCaseData("", "", false)
+			new TestCaseData("", "", true)
 				.SetName("Empty strings"),
 			new TestCaseData("", "abc", false)
 				.SetName("First is empty string"),
 			new TestCaseData("abc", "", false)
 				.SetName("Second is empty strings"),
-			new TestCaseData("a", "a", false)
+			new TestCaseData("a", "a", true)
 				.SetName("Same one-char strings"),
 			new TestCaseData("an", "na", true)
 				.SetName("Two-char anagram"),
