@@ -1,4 +1,6 @@
-﻿namespace LeetCode.Solutions.ContainsDuplicate
+﻿using System.Collections.Generic;
+
+namespace LeetCode.Solutions.ContainsDuplicate
 {
 	/// <summary>
 	/// Time complexity: O(n).
@@ -8,7 +10,16 @@
 	{
 		public bool Contains(int[] nums)
 		{
-			throw new System.NotImplementedException();
+			var hashSet = new HashSet<int>();
+			
+			foreach (var num in nums)
+			{
+				if (hashSet.Contains(num))
+					return true;
+				hashSet.Add(num);
+			}
+
+			return false;
 		}
 	}
 }
