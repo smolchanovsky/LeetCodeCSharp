@@ -16,3 +16,4 @@ My C# solutions to LeetCode problems.
 | 141  | Linked List Cycle                                 | Easy       |
 | 200  | Number of Islands                                 | Medium     |
 | 217  | Contains Duplicate                                | Easy       |
+| 242  | Valid Anagram                                     | Easy       |
