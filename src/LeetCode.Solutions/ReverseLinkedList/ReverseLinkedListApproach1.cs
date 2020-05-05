@@ -9,7 +9,7 @@ namespace LeetCode.Solutions.ReverseLinkedList
 	/// </summary>
 	public class ReverseLinkedListApproach1 : IReverseLinkedList
 	{
-		public ListNode Reverse(ListNode head)
+		public ListNode? Reverse(ListNode head)
 		{
 			ListNode? result = null;
 			var currentNode = head;
@@ -22,7 +22,7 @@ namespace LeetCode.Solutions.ReverseLinkedList
 				currentNode = nextNode;
 			}
 
-			return result!;
+			return result;
 		}
 	}
 }

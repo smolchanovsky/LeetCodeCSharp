@@ -8,6 +8,6 @@ namespace LeetCode.Solutions.ReverseLinkedList
 	/// </summary>
 	public interface IReverseLinkedList
 	{
-		ListNode Reverse(ListNode head);
+		ListNode? Reverse(ListNode head);
 	}
 }
