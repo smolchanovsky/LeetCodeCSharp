@@ -23,10 +23,10 @@ namespace LeetCode.Solutions.FindMinimumInRotatedSortedArray
 			{
 				var middle = left + (right - left) / 2;
 				
-				if (nums[middle] < nums[middle - 1])
-					return nums[middle];
 				if (nums[middle] > nums[middle + 1])
 					return nums[middle + 1];
+				if (nums[middle] < nums[middle - 1])
+					return nums[middle];
 
 				if (nums[middle] > nums[0])
 					left = middle + 1;

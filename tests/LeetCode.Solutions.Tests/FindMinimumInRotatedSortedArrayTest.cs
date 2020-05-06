@@ -15,6 +15,10 @@ namespace LeetCode.Solutions.Tests
 				.SetName("Empty array"),
 			new TestCaseData(new[] {1}, 1)
 				.SetName("One-item array"),
+			new TestCaseData(new[] {1, 2}, 1)
+				.SetName("Two-items sorted array"),
+			new TestCaseData(new[] {2, 1}, 1)
+				.SetName("Two-items rotated array"),
 			new TestCaseData(new[] {1, 2, 3, 4, 5}, 1)
 				.SetName("Sorted array"),
 			new TestCaseData(new[] {4, 5, 6, 1, 2, 3}, 1)
