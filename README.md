@@ -15,6 +15,7 @@ My C# solutions to LeetCode problems.
 | 23   | Merge k Sorted Lists                              | Hard       |
 | 121  | Best Time to Buy and Sell Stock                   | Easy       |
 | 141  | Linked List Cycle                                 | Easy       |
+| 153  | Find Minimum in Rotated Sorted Array              | Medium     |
 | 200  | Number of Islands                                 | Medium     |
 | 217  | Contains Duplicate                                | Easy       |
 | 242  | Valid Anagram                                     | Easy       |
