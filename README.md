@@ -16,5 +16,6 @@ My C# solutions to LeetCode problems.
 | 121  | Best Time to Buy and Sell Stock                   | Easy       |
 | 141  | Linked List Cycle                                 | Easy       |
 | 200  | Number of Islands                                 | Medium     |
+| 206  | Reverse Linked List                               | Easy       |
 | 217  | Contains Duplicate                                | Easy       |
 | 242  | Valid Anagram                                     | Easy       |
