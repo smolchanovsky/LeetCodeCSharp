@@ -13,6 +13,7 @@ My C# solutions to LeetCode problems.
 | 20   | Valid Parentheses                                 | Easy       |
 | 21   | Merge Two Sorted Lists                            | Easy       |
 | 23   | Merge k Sorted Lists                              | Hard       |
+| 26   | Remove Duplicates from Sorted Array               | Easy       |
 | 121  | Best Time to Buy and Sell Stock                   | Easy       |
 | 141  | Linked List Cycle                                 | Easy       |
 | 153  | Find Minimum in Rotated Sorted Array              | Medium     |
