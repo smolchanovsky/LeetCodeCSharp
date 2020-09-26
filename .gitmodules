@@ -1,0 +1,4 @@
+[submodule "submodules/ProblemTemplateGenerator"]
+	path = submodules/ProblemTemplateGenerator
+	url = https://github.com/smolchanovsky/ProblemTemplateGenerator.git
+	branch = master
