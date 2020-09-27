@@ -1,9 +1,11 @@
 ﻿namespace LeetCode.Solutions.NumberOfIslands
 {
 	/// <summary>
-	/// Recursive algorithm.
-	/// TTime complexity: O(N).
+	/// Description: Recursive algorithm.
+	/// TTime complexity: O(n).
 	/// Space complexity: O(1).
+	/// Runtime: 104 ms, faster than 93.55% of C# online submissions for Number of Islands.
+	/// Memory Usage: 28.7 MB, less than 10.00% of C# online submissions for Number of Islands.
 	/// </summary>
 	public class NumberOfIslandsApproach1 : INumberOfIslands
 	{

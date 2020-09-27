@@ -4,9 +4,12 @@ using LeetCode.Helpers;
 namespace LeetCode.Solutions.MergeKSortedLists
 {
 	/// <summary>
+	/// Description: 
 	/// Iterative algorithm.
-	/// Time complexity: O(N * Log K) where K is the number of linked lists.
+	/// Time complexity: O(n * log k) where K is the number of linked lists.
 	/// Space complexity: O(1).
+	/// Runtime: 112 ms, faster than 84.34% of C# online submissions for Merge k Sorted Lists.
+	/// Memory Usage: 29.9 MB, less than 12.36% of C# online submissions for Merge k Sorted Lists.
 	/// </summary>
 	public class MergeKSortedListsApproach1 : IMergeKSortedLists
 	{

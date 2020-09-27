@@ -4,9 +4,11 @@ using LeetCode.Helpers;
 namespace LeetCode.Solutions.ReverseLinkedList
 {
 	/// <summary>
-	/// Recursive algorithm.
+	/// Description: Recursive algorithm.
 	/// Time complexity: O(n).
 	/// Space complexity: O(n).
+	/// Runtime: 88 ms, faster than 93.31% of C# online submissions for Reverse Linked List.
+	/// Memory Usage: 25.2 MB, less than 5.14% of C# online submissions for Reverse Linked List.
 	/// </summary>
 	public class ReverseLinkedListApproach2 : IReverseLinkedList
 	{

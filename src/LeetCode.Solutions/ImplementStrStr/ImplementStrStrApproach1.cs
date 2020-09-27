@@ -1,6 +1,7 @@
 namespace LeetCode.Solutions.ImplementStrStr
 {
     /// <summary>
+    /// Description: 
 	/// Time complexity: O(n * m) where n is haystack length and m is needle length.
 	/// Space complexity: O(m).
 	/// Runtime: 72 ms, faster than 91.05% of C# online submissions for Implement strStr().

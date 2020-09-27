@@ -3,8 +3,11 @@
 namespace LeetCode.Solutions.ValidParentheses
 {
 	/// <summary>
+	/// Description: 
 	/// Time complexity : O(n).
 	/// Space complexity : O(n).
+	/// Runtime: 76 ms, faster than 65.02% of C# online submissions for Valid Parentheses.
+	/// Memory Usage: 22.3 MB, less than 11.50% of C# online submissions for Valid Parentheses.
 	/// </summary>
 	public class ValidParenthesesApproach1 : IValidParentheses
 	{
