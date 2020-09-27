@@ -1,9 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
 namespace LeetCode.Solutions.SingleNumber
 {
 	/// <summary>
@@ -11,7 +5,7 @@ namespace LeetCode.Solutions.SingleNumber
 	/// Given a non-empty array of integers, every element appears twice except for one.
 	/// Find that single one.
 	/// Note: Your algorithm should have a linear runtime complexity.
-	/// Could you implement it without using extra memory?.
+	/// Could you implement it without using extra memory?
 	/// </summary>
     public interface ISingleNumber
     {
