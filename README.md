@@ -16,6 +16,7 @@ My C# solutions to LeetCode problems.
 | 26   | Remove Duplicates from Sorted Array               | Easy       |
 | 28   | Implement strStr                                  | Easy       |
 | 66   | Plus One                                          | Easy       |
+| 88   | Merge Sorted Array                                | Easy       |
 | 121  | Best Time to Buy and Sell Stock                   | Easy       |
 | 141  | Linked List Cycle                                 | Easy       |
 | 153  | Find Minimum in Rotated Sorted Array              | Medium     |
