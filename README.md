@@ -18,6 +18,7 @@ My C# solutions to LeetCode problems.
 | 66   | Plus One                                          | Easy       |
 | 88   | Merge Sorted Array                                | Easy       |
 | 121  | Best Time to Buy and Sell Stock                   | Easy       |
+| 136  | Single Number                                     | Easy       |
 | 141  | Linked List Cycle                                 | Easy       |
 | 153  | Find Minimum in Rotated Sorted Array              | Medium     |
 | 200  | Number of Islands                                 | Medium     |
