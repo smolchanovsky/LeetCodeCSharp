@@ -4,7 +4,7 @@ namespace LeetCode.Solutions.FindMinimumInRotatedSortedArray
 {
 	/// <summary>
 	/// Description: Binary Search.
-	/// Time Complexity: O(log n).
+	/// Time Complexity: O(log(n)).
 	/// Space Complexity: O(1).
 	/// Runtime: 80 ms, faster than 99.70% of C# online submissions for Find Minimum in Rotated Sorted Array.
 	/// Memory Usage: 25.4 MB, less than 5.14% of C# online submissions for Find Minimum in Rotated Sorted Array.
