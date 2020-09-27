@@ -1,8 +1,11 @@
 ﻿namespace LeetCode.Solutions.RemoveDuplicatesFromSortedArray
 {
 	/// <summary>
+	/// Description: 
 	/// Time Complexity: O(n).
 	/// Space Complexity: O(1).
+	/// Runtime: 244 ms, faster than 93.23% of C# online submissions for Remove Duplicates from Sorted Array.
+	/// Memory Usage: 34.2 MB, less than 5.04% of C# online submissions for Remove Duplicates from Sorted Array.
 	/// </summary>
 	public class RemoveDuplicatesFromSortedArrayApproach1 : IRemoveDuplicatesFromSortedArray
 	{

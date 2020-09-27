@@ -3,9 +3,11 @@
 namespace LeetCode.Solutions.AddTwoNumbers
 {
 	/// <summary>
-	/// Iterative algorithm.
-	/// Time complexity: O(max(N,M)) where N and M represents the length of left and right respectively.
-	/// Space complexity: O(max(N,M)).
+	/// Description: Iterative algorithm.
+	/// Time complexity: O(max(n, m)) where n and m represents the length of left and right respectively.
+	/// Space complexity: O(max(n, m)).
+	/// Runtime: 104 ms, faster than 88.80% of C# online submissions for Add Two Numbers.
+	/// Memory Usage: 28.3 MB, less than 5.04% of C# online submissions for Add Two Numbers.
 	/// </summary>
 	public class AddTwoNumbersApproach1 : IAddTwoNumbers
 	{

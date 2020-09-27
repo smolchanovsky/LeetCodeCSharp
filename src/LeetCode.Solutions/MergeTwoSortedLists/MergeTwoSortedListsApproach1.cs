@@ -3,9 +3,12 @@
 namespace LeetCode.Solutions.MergeTwoSortedLists
 {
 	/// <summary>
+	/// Description: 
 	/// Iterative algorithm.
-	/// TTime complexity: O(max(N,M)) where N and M represents the length of first and second respectively.
+	/// TTime complexity: O(max(n, m)) where N and M represents the length of first and second respectively.
 	/// Space complexity: O(1).
+	/// Runtime: 96 ms, faster than 66.25% of C# online submissions for Merge Two Sorted Lists.
+	/// Memory Usage: 26.5 MB, less than 5.11% of C# online submissions for Merge Two Sorted Lists.
 	/// </summary>
 	public class MergeTwoSortedListsApproach1: IMergeTwoSortedLists
 	{

@@ -3,9 +3,11 @@
 namespace LeetCode.Solutions.ReverseLinkedList
 {
 	/// <summary>
-	/// Iterative algorithm.
+	/// Description: Iterative algorithm.
 	/// Time complexity: O(n).
 	/// Space complexity: O(1).
+	/// Runtime: 88 ms, faster than 93.31% of C# online submissions for Reverse Linked List.
+	/// Memory Usage: 25.1 MB, less than 5.14% of C# online submissions for Reverse Linked List.
 	/// </summary>
 	public class ReverseLinkedListApproach1 : IReverseLinkedList
 	{

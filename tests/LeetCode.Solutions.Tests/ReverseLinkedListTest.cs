@@ -53,7 +53,7 @@ namespace LeetCode.Solutions.Tests
 		{
 			var actualResult = approach2.Reverse(head);
 
-			actualResult.Should().BeEquivalentTo(expectedResult);
+			actualResult.Should().BeEquivalentTo(expectedResult, options => options.WithStrictOrdering());
 		}
 	}
 }

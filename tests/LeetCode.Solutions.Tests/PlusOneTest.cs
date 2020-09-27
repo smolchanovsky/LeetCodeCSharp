@@ -39,7 +39,7 @@ namespace LeetCode.Solutions.Tests
         {
             var actualResult = approach1.PlusOne(digits);
 
-            actualResult.Should().BeEquivalentTo(expectedResult);
+            actualResult.Should().BeEquivalentTo(expectedResult, options => options.WithStrictOrdering());
         }
     }
 }

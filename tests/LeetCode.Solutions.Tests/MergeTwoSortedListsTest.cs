@@ -51,7 +51,7 @@ namespace LeetCode.Solutions.Tests
 		{
 			var actualResult = approach1.Merge(first, second);
 			
-			actualResult.Should().BeEquivalentTo(expectedResult);
+			actualResult.Should().BeEquivalentTo(expectedResult, options => options.WithStrictOrdering());
 		}
 	}
 }

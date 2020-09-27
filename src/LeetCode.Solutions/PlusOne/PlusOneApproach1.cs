@@ -4,6 +4,7 @@ using System.Linq;
 namespace LeetCode.Solutions.PlusOne
 {
     /// <summary>
+    /// Description: 
 	/// Time complexity: O(n).
 	/// Space complexity: O(n).
 	/// Runtime: Runtime: 220 ms, faster than 99.82% of C# online submissions for Plus One.

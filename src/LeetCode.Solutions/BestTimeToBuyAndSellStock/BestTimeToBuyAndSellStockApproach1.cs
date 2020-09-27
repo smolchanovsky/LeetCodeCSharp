@@ -1,8 +1,11 @@
 ﻿namespace LeetCode.Solutions.BestTimeToBuyAndSellStock
 {
 	/// <summary>
+	/// Description: 
 	/// Time complexity: O(n).
 	/// Space complexity: O(1).
+	/// Runtime: 96 ms, faster than 72.00% of C# online submissions for Best Time to Buy and Sell Stock.
+	/// Memory Usage: 25.5 MB, less than 5.97% of C# online submissions for Best Time to Buy and Sell Stock.
 	/// </summary>
 	public class BestTimeToBuyAndSellStockApproach1 : IBestTimeToBuyAndSellStock
 	{

@@ -1,6 +1,7 @@
 namespace LeetCode.Solutions.MergeSortedArray
 {
     /// <summary>
+    /// Description: 
 	/// Time complexity: O(n + m).
 	/// Space complexity: O(1).
 	/// Runtime: 232 ms, faster than 94.25% of C# online submissions for Merge Sorted Array.

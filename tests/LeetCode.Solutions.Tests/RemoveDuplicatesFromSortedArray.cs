@@ -41,7 +41,7 @@ namespace LeetCode.Solutions.Tests
 			var actualArray = numbers.Take(actualArrayLength).ToArray();
 
 			actualArrayLength.Should().Be(expectedArray.Length);
-			actualArray.Should().BeEquivalentTo(expectedArray);
+			actualArray.Should().BeEquivalentTo(expectedArray, options => options.WithStrictOrdering());
 		}
 	}
 }
