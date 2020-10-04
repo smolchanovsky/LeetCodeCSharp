@@ -14,6 +14,7 @@ My C# solutions to LeetCode problems.
 | 21   | Merge Two Sorted Lists                            | Easy       |
 | 23   | Merge k Sorted Lists                              | Hard       |
 | 26   | Remove Duplicates from Sorted Array               | Easy       |
+| 27   | Remove Element                                    | Easy       |
 | 28   | Implement strStr                                  | Easy       |
 | 66   | Plus One                                          | Easy       |
 | 88   | Merge Sorted Array                                | Easy       |
